@@ -1,0 +1,35 @@
+{
+  "name": "react-v16",
+  "version": "1.0.0",
+  "description": "React v16 with material-ui v4",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "4.12.4",
+    "loader-utils": "3.2.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-scripts": "3.4.0",
+    "survey-core": "^1.12.23",
+    "survey-creator-react": "^1.12.23",
+    "survey-pdf": "^1.12.23",
+    "survey-creator-core": "1.12.23",
+    "survey-react-ui": "1.12.23"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
